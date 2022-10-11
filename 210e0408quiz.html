@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./slidestyle.css">
+    <script src="./quizscript.js"></script>
+    <title>クイズ</title>
+    <meta charset="utf-8">
+
+
+  </head>
+  <body>
+    <div class="header">
+      <p><img class="headerImg" src="./logo.jpg" alt="ここに画像が表示されないときの文字" height=50
+         ></p>
+      <h1 class="headingLarge">ワクチン<span class="partLarge">接種促進</span></h1>
+      <ol class="navigation">
+       <li class="navigationLi"><a href="./index.html">トップページ</a></li>
+       <li class="navigationLi"><a href="./210e0408page2.html">はじめに</a></li>
+       <li class="navigationLi">  <a href="./210e0408page3.html">調べた記事</a></li>
+       <li class="navigationLi"><a href="./210e0408page4.html">わかったこと</a></li>
+       <li class="navigationLi">クイズ</li>
+       <li class="navigationLi"><a href="./210e0408selfcheck.html">セルフチェック</a></li>
+     </ol>
+    </div>
+    <!-- ここから文章エリア -->
+    <div class="article">
+    　<h2 class="articleH2">確認クイズ</h2>
+    <form id="quizForm">
+      <p class="articlePD"><span class="sample4">[問1]</span>(5点)<br>「ネイバー」「カカオ」のアプリで残余の新型コロナワクチン接種予約可能になったのはどこの国？</p>
+      <ul class="articleFormUl">
+      <li>
+        <label><input type="radio" name="radios1" value="q1one">韓国</label>
+      </li>
+      <li>
+        <label><input type="radio" name="radios1" value="q1two">中国</label>
+      </li>
+      <li>
+        <label><input type="radio" name="radios1" value="q1three">ベトナム</label>
+      </li>
+      </ul>
+      <p class="articlePD"><span class="sample4">[問2]</span>(5点)<br>「ネイバー」「カカオ」のアプリで残余の新型コロナワクチン接種予約可能になったのはいつから？</p>
+      <ul class="articleFormUl">
+      <li>
+        <label><input type="radio" name="radios2" value="q2one">4月27日</label>
+      </li>
+      <li>
+        <label><input type="radio" name="radios2" value="q2two">5月27日</label>
+      </li>
+      <li>
+        <label><input type="radio" name="radios2" value="q2three">6月27日</label>
+      </li>
+      </ul>
+      <p class="articleP">
+        <input class="submitbtn"
+         type="button"
+         value="解答送信"
+        onclick="pressedBtn();"></p>
+      <p class="articleP" id="quizReport">ここに結果が表示されます</p>
+　　</form>
+　　</div>
+<!-- ここまでが文章エリア -->
+    <div class="footer">
+      <ul class="footerUL">
+        <li>210e0408 大柿香織(<a href="https://www.educ.kumamoto-u.ac.jp/">熊本大学教育学部</a>)</li>
+        <li>情報基礎B</li>
+        <li>クイズ</li>
+      </ul>
+
+    </div>
+
+  </body>
+</html>

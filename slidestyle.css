@@ -1,0 +1,236 @@
+/*全体の余白をゼロにする*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/*ヘッダー部分*/
+/*ヘッダー文字色と背景色の設定して横幅いっぱい*/
+.header{
+background-color: #b9e1dc;
+color: white;
+width: 100%;/*ヘッダーの幅*/
+}
+/*題名の促進の文字サイズを3倍で、中央寄せで、上下左右に20pxの枠内の余白*/
+.headingLarge{
+  font-size: 3em;
+  text-align: center;
+  padding: 20px;
+}
+  /*熊大ロゴの設定*/
+.headerImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 列挙型箇条書きを横並び表示に */
+.navigationLi {
+  display: inline-block;
+  padding: 15px;
+}
+/* ナビゲーションメニュー */
+.navigation {
+  color: #212121;
+  background-color:
+#fbfbfb;
+  border-top: solid 1px
+#fbfbfb;
+  border-bottom: solid 1px
+#fbfbfb;
+}
+
+/*文章部分*/
+/*文章部分の文字色と背景色の設定して横幅いっぱい*/
+.article{
+background-color: #f38181;
+color: #4d5156;
+width: 100%;
+/*文章の幅*/
+padding-top: 50px;
+padding-bottom: 50px;
+}
+/* 文章部の見出し */
+.articleH3{
+  width: 75%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-size: 1.5em;
+  padding: 1rem 2rem;
+  border-top: 3px dotted #000;
+  border-bottom: 3px dotted #000;
+  color: #333333;
+  background-color: inherit;
+}
+
+/* 文章部の箇条書き */
+.articleUl{
+  width: 75%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+/*フッター部分*/
+/*フッター部分の文字色と背景色の設定して横幅いっぱい*/
+.footer{
+background-color: #756c83;
+color: black;
+width: 100%;/*フッタの幅*/
+}
+
+
+.partLarge {
+  font-size: 2em;
+  color: #2D4059;
+  background-color: transparent;
+}
+.txtKeyword {
+  color: white;
+  background-color: transparent;
+}
+/* ページのタイトル*/
+.articleH2{
+position: relative;
+font-size: 35px;
+text-align: center;
+padding: 20px 0 15px;
+border-top: solid 2px;
+border-bottom: solid 2px;
+width: 320px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 35px;
+  }
+/*ページのパラグラフ*/
+.articleP{
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+  }
+/*文章部のHTMLフォーム*/
+  .articleFormUl {
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+/*送信ボタン*/
+  .submitbtn {
+    width:150px;
+    height:30px;
+    border: solid 1px gray;
+  }
+/*ページの表,tableの位置,tableの枠線*/
+.articleTable{
+  width: 50%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border:solid 1px ;
+}
+/* セルの文字列と枠線との空白を10pxし、枠線をsolid(実線)で、太さ5pxで、色で枠線を描く */
+.articleTableTh {
+  padding: 10px;
+  border:solid 2px #fdfdfd;
+}
+
+.articleTableTd {
+  padding: 10px;
+  border:solid 2px #fdfdfd;
+}
+/* 文章部の表の見出し、下線、太文字 */
+.articleTableCaption {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* ----- 右寄せ、項目記号の削除、文字は標準小、余白10px ----- */
+.footerUL{
+  text-align: right;
+  list-style: none;
+  font-size: smaller;
+  padding: 1px;
+}
+/*セルフチェック*/
+.selfcheck {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.selfcheck th,td {
+  border: solid 1px black;
+  padding: 5px;
+}
+.no {
+  color: black;
+  background-color: lightpink;
+}
+.yes {
+  color: black;
+  background-color: #fffff0;
+}
+/*ページ２表の位置をずらす*/
+.flbox {
+  height: 140px;
+  width: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+}
+/*ページ２表*/
+.articleTable2{
+  width: 15%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border:solid 1px ;
+}
+/*クイズ題*/
+.articlePD{
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border-bottom: 3px dotted #000;
+  }
+/*トップページ表の中の文字*/
+.sample3{
+  font-family: cursive;
+}
+.sample4{
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size:14pt;
+}
+/*ページ３小見出し*/
+.articleH4{
+  width: 60%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px
+}
+.midasi1{
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: left;
+  border: 3px solid #000;
+  border-radius: 0 10px 10px 10px;
+}
+.midasi1:after {
+  font-size: 15px;
+
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    height: 24px;
+    padding: 0 1em;
+    content: 'POINT';
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    background: #000;
+}

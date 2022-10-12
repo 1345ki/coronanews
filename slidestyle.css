@@ -127,13 +127,13 @@ margin-bottom: 35px;
   }
 /*ページの表,tableの位置,tableの枠線*/
 .articleTable{
-  width: 60%;
+  width: 50%;
   margin-left: 50px;
   margin-bottom: 20px;
   border-collapse: collapse;
   border:solid 1px ;
 }
-/* セルの文字列と枠線との空白を10pxし、枠線をsolid(実線)で、太さ5pxで、色で枠線を描く */
+/* セルの文字列と枠線との空白を10pxし、枠線をsolid(実線)で、太さ10pxで、色で枠線を描く */
 .articleTableTh {
   padding: 10px;
   border:solid 2px #fdfdfd;
@@ -168,7 +168,7 @@ margin-bottom: 35px;
 }
 .no {
   color: black;
-  background-color: lightpink;
+  background-\color: lightpink;
 }
 .yes {
   color: black;
@@ -184,7 +184,7 @@ margin-bottom: 35px;
 }
 /*ページ２表*/
 .articleTable2{
-  width: 20%;
+  width: 25%;
   margin-left: 50px;
   margin-bottom: 20px;
   border-collapse: collapse;
